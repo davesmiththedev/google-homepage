@@ -1,2 +1,2 @@
 # google-homepage
-<a href="https://github.com/lah4life/google-homepage.git">Odin Project Link</a>
+<a href="http://www.theodinproject.com/web-development-101/html-css">Odin Project Link</a>
