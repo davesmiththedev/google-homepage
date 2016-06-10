@@ -1,0 +1,140 @@
+body{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.container{
+	text-align: center;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 13px;
+	color: black;
+	padding: 1px 10px;
+
+}
+
+input {
+	width: 500px;
+	padding: 12px 40px 12px 10px;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	border: 0.5px solid #d9d9d9;
+	box-sizing: border-box;
+	background-image: url('microphone.png');
+	background-position: right center;
+	background-repeat: no-repeat;
+	
+}
+
+input:focus{
+	border-color: #4d90fe;
+}
+
+input:hover{
+	border-color: #b9b9b9;
+	border-top-color: #a0a0a0;
+}
+
+button {
+	border: 1px solid #f2f2f2;
+	background-color: whitesmoke;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 13px;
+	color: #757575;
+	height: 36px;
+	line-height: 27px;
+	padding: 0 16px;
+	
+}
+
+button:hover{
+	border: 1px solid lightgrey;
+	box-sizing: border-box;
+	color: black;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	position: relative;
+	padding-right: 10px;
+}
+
+li{
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+#push{
+	margin-bottom: 65px;
+}
+
+#menubar{
+
+	padding: 10px 0px;
+	float: top;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#menubar a{
+	font-family: Arial;
+	font-size: 13px;
+	color: black;
+	padding: 1px 10px;
+	text-decoration: none;
+}
+
+#menubar #images:hover {
+	text-decoration: underline;
+}
+
+#menubar #gmail:hover {
+	text-decoration: underline;
+}
+
+#menubar #signin{
+	background-color: #4285f4;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 8px 12px;
+	margin-left: 4px;
+}
+
+#gridicon{
+	vertical-align: middle;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	line-height: 40px;
+	background: #f2f2f2;
+	text-align: left;
+	vertical-align: middle;
+	display: block;
+}
+
+
+.footer a{
+	text-decoration: none;
+	color: #666;
+	padding: 0px 10px;
+	position: relative;
+	display: inline-block;
+}
+
+.footer #rightmenu{
+	float: right;
+	position: relative;
+}
+
+

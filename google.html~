@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google</title>
+	<!-- Custom Styles -->
+	<link href="google.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<nav id="menubar">
+			<ul>			
+				<li>				
+					<a id="gmail" href="https://mail.google.com/mail/?tab=wm">Gmail</a>
+				</li>				
+				<li>
+					<a id="images" href="https://www.google.com/imghp?hl=en&tab=wi&ei=FcVZV9zeMISKjwO58IXQCw&ved=0EKouCBYoAQ">Images</a>
+				</li>
+				<li>
+					<a href="https://www.google.com/intl/en/options/">
+						<img id="gridicon" src="gridicon.png" alt="Options">			
+					</a>
+				</li>
+				<li>
+					<a id="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a>		
+				</li>
+			</ul>		
+		</nav>
+		<div id="push"></div>	
+		<img src="googlelogo.gif" alt=""><br>
+		<div id="searchbar">			
+			<form action="#" method="post">
+				<input type="text" name="searchtext">
+			</form>
+			<div id="searchbuttons">
+				<button>Google Search</button>
+				<button>I'm Feeling Lucky</button>
+			</div>
+		</div>
+		<div class="footer">
+				<span id="leftmenu">
+					<a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+					<a href="https://www.google.com/services/?fg=1">Business</a>
+					<a href="https://www.google.com/intl/en/about.html?fg=1">About</a>				
+				</span>
+				<span id="rightmenu">
+					<a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
+					<a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
+					<a href="https://www.google.com/preferences?hl=en">Settings</a>
+				</span>	
+		</div>
+	</div>
+</body>
+</html>
